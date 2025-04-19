@@ -178,3 +178,5 @@ cython_debug/
 
 # Project specific stuff
 resources/
+
+src/vecalign/
