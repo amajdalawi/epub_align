@@ -4,6 +4,10 @@ import re
 from typing import List, Tuple, Dict
 import ebooklib
 
+
+
+
+
 class Book:
     def __init__(self, path_lang1: str, path_lang2: str):
         self.path_lang1 = path_lang1
@@ -76,6 +80,8 @@ if __name__ == "__main__":
     # book.align_sections(similarity_threshold=70)
     # book.print_aligned()
     book.show_aligned_sections(limit=30)
+    print(book.aligned_sections[5][2])
+
     # print(book.aligned_sections)
 
     # book.show_aligned_sections()
